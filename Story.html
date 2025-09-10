@@ -284,11 +284,10 @@ tw-story[tags~="me"] {
 }
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">$(document).ready(function() {
-  // Only add the music once
   if ($("#bgmusic").length === 0) {
     $("body").append(`
       <audio id="bgmusic" autoplay loop>
-        <source src="mysound.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/monie0725/my-twine-story/main/10_In_The_Shadows.mp3" type="audio/mpeg">
       </audio>
     `);
   }
